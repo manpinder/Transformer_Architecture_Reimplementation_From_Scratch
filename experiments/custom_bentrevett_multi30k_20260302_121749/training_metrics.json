@@ -1,0 +1,10 @@
+{"epoch": 1, "train_loss": 10.188415047456461, "val_loss": 9.850352013946338, "grad_norm": 2.6543646093107696, "learning_rate": 1.18e-05, "inference_time": 29.908874988555908, "timestamp": "2026-03-02T12:23:24.394722"}
+{"epoch": 2, "train_loss": 9.599350071156712, "val_loss": 9.15161817392726, "grad_norm": 2.5203849566288485, "learning_rate": 2.36e-05, "inference_time": 29.264859914779663, "timestamp": "2026-03-02T12:28:38.662881"}
+{"epoch": 3, "train_loss": 8.709583800992986, "val_loss": 8.049665806399789, "grad_norm": 2.5222608798589463, "learning_rate": 3.54e-05, "inference_time": 28.16256093978882, "timestamp": "2026-03-02T12:33:50.385407"}
+{"epoch": 4, "train_loss": 7.508362549454419, "val_loss": 6.888522931724597, "grad_norm": 2.1631745915127616, "learning_rate": 4.72e-05, "inference_time": 30.221771001815796, "timestamp": "2026-03-02T12:39:12.025545"}
+{"epoch": 5, "train_loss": 6.634389541804918, "val_loss": 6.403111858732381, "grad_norm": 1.120715031766484, "learning_rate": 5.9e-05, "inference_time": 30.241493940353394, "timestamp": "2026-03-02T12:44:38.727278"}
+{"epoch": 6, "train_loss": 6.228141896506108, "val_loss": 5.995801351632283, "grad_norm": 1.1866187285154293, "learning_rate": 7.08e-05, "inference_time": 30.114625930786133, "timestamp": "2026-03-02T12:50:10.254751"}
+{"epoch": 7, "train_loss": 5.825409001633048, "val_loss": 5.6474084611151625, "grad_norm": 1.3800572156906128, "learning_rate": 8.26e-05, "inference_time": 29.83741068840027, "timestamp": "2026-03-02T12:55:34.978643"}
+{"epoch": 8, "train_loss": 5.503673159999888, "val_loss": 5.419607997699908, "grad_norm": 1.3859306395563304, "learning_rate": 9.44e-05, "inference_time": 30.44349694252014, "timestamp": "2026-03-02T13:01:11.860751"}
+{"epoch": 9, "train_loss": 5.296064921787807, "val_loss": 5.265666424089177, "grad_norm": 1.3196280298070011, "learning_rate": 0.0001, "inference_time": 29.391468048095703, "timestamp": "2026-03-02T13:06:44.265086"}
+{"epoch": 10, "train_loss": 5.165283995142369, "val_loss": 5.172634267503289, "grad_norm": 1.2931678636461241, "learning_rate": 0.0001, "inference_time": 31.81304097175598, "timestamp": "2026-03-02T13:12:18.886674"}

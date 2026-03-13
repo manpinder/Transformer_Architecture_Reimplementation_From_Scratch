@@ -1,0 +1,42 @@
+# Transformer model configuration
+d_model: 512
+n_heads: 8
+n_layers: 6
+d_ff: 2048
+dropout_rate: 0.1
+max_seq_len: 2048
+
+# Training configuration
+epochs: 10
+use_mixed_precision: True
+accumulation_steps: 4
+patience: 3
+min_delta: 0.01
+
+# Optimizer configuration
+learning_rate: 1.0e-4
+weight_decay: 0.01
+betas: [0.9, 0.98]
+eps: 1.0e-9
+
+# Learning rate scheduler configuration
+warmup_steps: 1000
+
+# Loss function configuration
+label_smoothing: 0.1
+
+# DataLoader configuration
+dataset_name: "bentrevett/multi30k"
+input_column: "en"
+target_column: "de"
+n_samples: 5000
+tokenizer_name: "t5-small"
+max_length: 128
+truncation: True
+padding: "max_length"
+batch_size: 8
+val_split: 0.25
+
+# Comparison path
+comparison_save_dir: "./experiments/comparison"
+

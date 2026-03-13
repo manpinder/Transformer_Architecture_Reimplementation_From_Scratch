@@ -1,0 +1,8 @@
+pytorch
+numpy
+matplotlib
+datasets
+transformers
+tqdm
+pytest
+pytest-cov
