@@ -93,7 +93,7 @@ Because the official PyTorch module does not include a built-in positional encod
 ### Installation
 
 ```bash
-git clone https://github.com/manpinder/-Transformer_Architecture_Reimplementation_From_Scratch.git
+git clone https://github.com/manpinder/Transformer_Architecture_Reimplementation_From_Scratch.git
 ```
 
 ```bash
