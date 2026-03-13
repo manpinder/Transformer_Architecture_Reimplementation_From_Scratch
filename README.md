@@ -46,7 +46,9 @@ Transformers power today’s most advanced language models. Rebuilding one from 
 - Python, PyTorch, NumPy, Matplotlib, Datasets, Transformers, PyTest.
 
 ## 📊 Architecture Validation & Comparison
-To verify the mathematical and structural accuracy of the custom implementation, the model was benchmarked against the official **torch.nn.Transformer** module using identical hyperparameters. Because the official PyTorch module does not include a built-in positional encoding layer, the custom sinusoidal positional encoding module was used for both models to ensure a fair comparison.
+To verify the mathematical and structural accuracy of the custom implementation, the model was benchmarked against the official **torch.nn.Transformer** module using identical hyperparameters. 
+
+Because the official PyTorch module does not include a built-in positional encoding layer, the custom sinusoidal positional encoding module was used for both models to ensure a fair comparison.
 
 ### Training Dynamics:
 
@@ -89,6 +91,10 @@ To verify the mathematical and structural accuracy of the custom implementation,
 ## 🚀 Getting Started
 
 ### Installation
+
+```bash
+git clone https://github.com/manpinder/-Transformer_Architecture_Reimplementation_From_Scratch.git
+```
 
 ```bash
 conda create --name <env_name>
